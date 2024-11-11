@@ -1,0 +1,9 @@
+Install Dependencies:
+
+    express: To handle the server.
+    puppeteer: To automate the browser for booking appointments.
+    nodemailer or node-telegram-bot-api: For sending notifications.
+    cors: For handling cross-origin requests (if your frontend and backend are on different servers).
+
+npm init -y
+npm install express puppeteer nodemailer cors body-parser
